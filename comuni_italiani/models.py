@@ -59,4 +59,5 @@ class Comune(models.Model):
         verbose_name_plural = 'comuni'
 
     def __str__(self):
-        return '%s - %s' % (self.name, self.provincia.name)
+        return f"{self.name}"
+        # return '%s - %s' % (self.name, self.provincia.name)
