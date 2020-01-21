@@ -60,4 +60,3 @@ class Comune(models.Model):
 
     def __str__(self):
         return f"{self.name}"
-        # return '%s - %s' % (self.name, self.provincia.name)
